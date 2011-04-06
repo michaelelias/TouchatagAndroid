@@ -1,0 +1,7 @@
+- Install eclipse ADT plugin
+- Download and install latest android sdk
+- Configure ADT plugin to point to SDK location
+- Download guava library from http://code.google.com/p/guava-libraries/ and add as dependency
+- Download signpost library from http://code.google.com/p/oauth-signpost/downloads/detail?name=signpost-core-1.2.1.1.jar and add as dependency
+- Download signpost-commons library from http://code.google.com/p/oauth-signpost/downloads/detail?name=signpost-commonshttp4-1.2.1.1.jar&can=2&q= and add as dependency
+- If you want to develop on a device instead of emulator, follow instructions on http://developer.android.com/guide/developing/device.html

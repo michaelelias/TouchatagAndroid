@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5px">
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/img_tag_item_claimingrule"
+		android:src="@drawable/ttlogo_48"
+		android:id="@+id/img_tag_selected_item_type"></ImageView>
+	<TextView
+		android:text="0x04CF9D193E2580"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@+id/img_tag_selected_item_type"
+		android:layout_alignTop="@+id/img_tag_selected_item_type"
+		android:layout_alignBottom="@+id/img_tag_selected_item_type"
+		android:gravity="center_vertical"
+		android:ellipsize="end"
+		android:scrollHorizontally="false"
+		android:id="@+id/lbl_tag_selected_item_taguid"
+		android:layout_toLeftOf="@+id/btn_tag_selected_remove"
+		android:textSize="20px"
+		android:textStyle="bold"></TextView>
+	<ImageButton
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:id="@+id/btn_tag_selected_remove"
+		android:src="@android:drawable/ic_delete"></ImageButton>
+</RelativeLayout>

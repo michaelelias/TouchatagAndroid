@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/layout_litehome_header">
+		<ImageView
+			android:background="@drawable/header"
+			android:id="@+id/ImageView01"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/full_logo"></ImageView>
+		<ImageView
+			android:background="@drawable/separator"
+			android:id="@+id/ImageView02"
+			android:layout_width="fill_parent"
+			android:layout_height="2px"
+			android:src="@drawable/separator"></ImageView>
+	</LinearLayout>
+	<RelativeLayout
+		android:id="@+id/relativeLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:background="#AAFFFFFF"
+		android:padding="10px">
+		<TextView
+			android:text="TextView"
+			android:layout_width="fill_parent"
+			android:id="@+id/lbl_litehome_howto"
+			android:textSize="24px"
+			android:layout_height="wrap_content"
+			android:textColor="#000000" android:background="#00ffffff"></TextView>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_width="fill_parent"
+			android:id="@+id/btn_litehome_estore"
+			android:text="Visit our e-store"></Button>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_litehome_tutorial"
+			android:layout_above="@+id/btn_litehome_estore"
+			android:layout_alignLeft="@+id/btn_litehome_estore"
+			android:layout_alignRight="@+id/btn_litehome_estore" android:text="View our help page"></Button>
+	</RelativeLayout>
+</LinearLayout>

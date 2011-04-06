@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/place" android:id="@+id/img_apptemplate_4sqvenue_icon"></ImageView>
+    <TextView android:text="Venue Name" android:id="@+id/txt_apptemplate_4sqvenue_name" android:layout_height="wrap_content" android:textStyle="bold" android:layout_width="wrap_content" android:textSize="25px" android:layout_toRightOf="@+id/img_apptemplate_4sqvenue_icon" android:layout_alignTop="@+id/img_apptemplate_4sqvenue_icon" android:layout_toLeftOf="@+id/btn_apptemplate_4sqvenue_search" android:ellipsize="end" android:textColor="#FFFFFF"></TextView>
+    <TextView android:text="Venue Address" android:id="@+id/txt_apptemplate_4sqvenue_address" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/txt_apptemplate_4sqvenue_name" android:layout_alignLeft="@+id/txt_apptemplate_4sqvenue_name" android:layout_toLeftOf="@+id/btn_apptemplate_4sqvenue_search"></TextView>
+    <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:id="@+id/btn_apptemplate_4sqvenue_search" android:src="@drawable/search"></ImageButton>
+</RelativeLayout>

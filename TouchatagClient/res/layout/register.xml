@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	style="@style/TTWindowStyle">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:orientation="vertical"
+		android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content">
+		<ImageView
+			android:background="@drawable/header"
+			android:src="@drawable/full_logo"
+			android:layout_width="fill_parent"
+			android:id="@+id/img_header_logo"
+			android:layout_height="wrap_content"></ImageView>
+		<ImageView
+			android:background="@drawable/separator"
+			android:src="@drawable/separator"
+			android:layout_width="fill_parent"
+			android:id="@+id/img_header_line"
+			android:layout_height="2px"></ImageView>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="15px"
+		android:layout_width="fill_parent">
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/lblUsername"
+			android:paddingBottom="5px"
+			android:layout_width="wrap_content"
+			android:id="@+id/lbl_register_username"></TextView>
+		<EditText
+			android:layout_width="match_parent"
+			android:bufferType="normal"
+			android:singleLine="true"
+			android:layout_height="wrap_content"
+			android:id="@+id/txt_register_username"
+			android:lines="1"></EditText>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/lblPassword"
+			android:paddingBottom="5px"
+			android:id="@+id/lbl_register_password"></TextView>
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:password="true"
+			android:id="@+id/txt_register_password"></EditText>
+		<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="5px" android:id="@+id/lbl_register_email" android:text="Email"></TextView>
+		<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:password="false" android:inputType="textEmailAddress" android:id="@+id/txt_register_email"></EditText>
+		<Button android:text="Register" android:paddingRight="50px" android:layout_marginTop="10px" android:paddingLeft="50px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btn_register_create_account"></Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent">
+	<EditText
+		android:layout_height="wrap_content"
+		android:id="@+id/txt_4sq_search" android:layout_toLeftOf="@+id/btn_4sq_search" android:layout_width="fill_parent" android:hint="Search for venue"></EditText>
+	<ImageButton
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:id="@+id/btn_4sq_search" android:src="@drawable/search"></ImageButton>
+	<ListView
+		android:id="@+id/list_4sq_venues"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/txt_4sq_search"></ListView>
+</RelativeLayout>

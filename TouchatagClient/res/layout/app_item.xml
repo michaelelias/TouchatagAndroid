@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5px">
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:src="@android:drawable/sym_def_app_icon" android:id="@+id/img_appitem_icon"></ImageView>
+	<TextView android:layout_height="wrap_content" android:text="App Name" android:layout_width="wrap_content" android:layout_toRightOf="@+id/img_appitem_icon" android:layout_alignTop="@+id/img_appitem_icon" android:id="@+id/lbl_appitem_name" android:textColor="#FFFFFF" android:textSize="24px" android:textStyle="bold"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="App Description" android:layout_width="wrap_content" android:layout_below="@+id/lbl_appitem_name" android:layout_alignLeft="@+id/lbl_appitem_name" android:id="@+id/lbl_appitem_description" android:textSize="18px"></TextView>
+</RelativeLayout>

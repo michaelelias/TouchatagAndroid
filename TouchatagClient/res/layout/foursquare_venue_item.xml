@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5px">
+	<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/img_4sq_venue" android:src="@drawable/location"></ImageView>
+	<TextView android:textColor="#FFFFFF" android:id="@+id/lbl_4sq_venue_name" android:textSize="24px" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_toRightOf="@+id/img_4sq_venue" android:layout_alignTop="@+id/img_4sq_venue" android:text="Venue Name"></TextView>
+	<TextView android:id="@+id/lbl_4sq_venue_address" android:textSize="18px" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/lbl_4sq_venue_name" android:layout_alignLeft="@+id/lbl_4sq_venue_name" android:text="Venue Address"></TextView>
+</RelativeLayout>

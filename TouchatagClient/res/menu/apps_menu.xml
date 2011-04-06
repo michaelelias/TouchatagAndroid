@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/menuitem_apps_newapp"
+		android:icon="@android:drawable/ic_menu_add"
+		android:title="New Application" />
+	<item
+		android:icon="@drawable/refresh"
+		android:title="Refresh"
+		android:id="@+id/menuitem_apps_refresh" />
+	<item
+		android:title="Settings"
+		android:icon="@android:drawable/ic_menu_preferences"
+		android:id="@+id/menuitem_settings" />
+	<item
+		android:title="About"
+		android:id="@+id/menuitem_about"
+		android:icon="@android:drawable/ic_menu_info_details" />
+</menu>

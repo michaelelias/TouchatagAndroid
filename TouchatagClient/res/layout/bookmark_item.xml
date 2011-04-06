@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5px">
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#FFFFFF" android:textSize="24px" android:textStyle="bold" android:id="@+id/lbl_bookmark_name" android:text="Bookmark Name"></TextView>
+	<TextView android:layout_width="wrap_content" android:textSize="18px" android:layout_height="wrap_content" android:layout_below="@+id/lbl_bookmark_name" android:layout_alignLeft="@+id/lbl_bookmark_name" android:id="@+id/lbl_bookmark_url" android:text="Bookmark URI"></TextView>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:summary="Settings of the Touchatag client"
+	android:orderingFromXml="true"
+	android:key="tt-settings"
+	android:title="Touchatag Settings">
+	<PreferenceCategory
+		android:title="@string/pref_cat_credentials"
+		android:key="@string/pref_cat_client">
+		<Preference
+			android:title="Username"
+			android:key="@string/pref_username"
+			android:enabled="false"></Preference>
+		<Preference
+			android:key="@string/pref_clear_credentials"
+			android:title="Clear Credentials"
+			android:summary="Clear your user credentials and returns you to the login screen"></Preference>
+		<Preference
+			android:key="@string/pref_revoke_authorization"
+			android:title="Revoke Authorization"
+			android:summary="Revoke the app's permisson to access your resources through the Touchatag API"></Preference>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/pref_cat_client"
+		android:key="@string/pref_cat_client">
+		<EditTextPreference
+			android:title="Client name"
+			android:summary="You can customize your client's name. e.g. &quot;Mike's Nexus S&quot;"
+			android:key="@string/pref_clientname"></EditTextPreference>
+		<Preference
+			android:enabled="false"
+			android:key="@string/pref_client_id"
+			android:title="@string/pref_client_id"></Preference>
+		<CheckBoxPreference
+			android:title="@string/pref_client_autolaunch"
+			android:key="@string/pref_client_autolaunch"
+			android:summaryOff="@string/pref_client_autolaunch_off_summary"
+			android:summaryOn="@string/pref_client_autolaunch_on_summary"></CheckBoxPreference>
+		<ListPreference
+			android:title="@string/pref_client_endpoint"
+			android:key="@string/pref_client_endpoint"></ListPreference>
+	</PreferenceCategory>
+</PreferenceScreen>
