@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -213,7 +214,8 @@ public class TagActivity extends Activity {
 	private void shareQrCode(){
 		Intent sharingIntent = new Intent(Intent.ACTION_SEND);
 		sharingIntent.setType("image/bmp");
-		sharingIntent.putExtra(android.content.Intent.EXTRA_, QrCodeGenerator.getUri(tag.getIdentifier()).toString());
+		Bitmap bitmap = QrCodeGenerator.getQrBitmap(tag.getIdentifier()).toString(), 400);
+		sharingIntent.putExtra(android.content.Intent.EXTRA_STREAM, );
 		startActivity(Intent.createChooser(sharingIntent,"Share using"));
 	}
 	

@@ -32,7 +32,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.touchatag.android.R;
-import com.touchatag.android.activity.template.Template;
 import com.touchatag.android.activity.template.TouchatagTemplate;
 import com.touchatag.android.client.TouchatagRestClient;
 import com.touchatag.android.client.rest.model.Application;
