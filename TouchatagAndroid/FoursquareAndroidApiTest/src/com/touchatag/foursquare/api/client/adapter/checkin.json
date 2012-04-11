@@ -1,0 +1,164 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "notifications": [{
+        "type": "notificationTray",
+        "item": {
+            "unreadCount": 0
+        }
+    }, {
+        "type": "message",
+        "item": {
+            "message": "OK! We've got you @ My Smoking Spot. You've been here 1 time."
+        }
+    }, {
+        "type": "badge",
+        "item": {
+            "badge": {
+                "id": "4c4f08667a0803bbad202ab7",
+                "name": "Superstar",
+                "description": "You've checked into 50 different venues!",
+                "image": {
+                    "prefix": "https://playfoursquare.s3.amazonaws.com/badge/",
+                    "sizes": [57, 114, 300, 200, 400],
+                    "name": "/superstar.png"
+                }
+            }
+        }
+    }, {
+        "type": "mayorship",
+        "item": {
+            "type": "none",
+            "daysBehind": 1,
+            "message": "This venue has no mayor.",
+            "image": "https://foursquare.com/img/crown.png"
+        }
+    }, {
+        "type": "leaderboard",
+        "item": {
+            "leaderboard": [{
+                "user": {
+                    "id": "1274618",
+                    "firstName": "Cat",
+                    "photo": "https://playfoursquare.s3.amazonaws.com/userpix_thumbs/4GQE3XBZY1GDJWFR.jpg",
+                    "gender": "female",
+                    "homeCity": "Antwerp, Belgium",
+                    "relationship": "friend"
+                },
+                "scores": {
+                    "recent": 23,
+                    "max": 35,
+                    "goal": 50,
+                    "checkinsCount": 2
+                },
+                "rank": 3
+            }, {
+                "user": {
+                    "id": "540996",
+                    "firstName": "michael",
+                    "lastName": "elias",
+                    "photo": "https://playfoursquare.s3.amazonaws.com/userpix_thumbs/4RWG54RTOICCYV2T.jpg",
+                    "gender": "male",
+                    "homeCity": "Antwerpen, België",
+                    "relationship": "self"
+                },
+                "scores": {
+                    "recent": 22,
+                    "max": 55,
+                    "checkinsCount": 7
+                },
+                "rank": 4
+            }, {
+                "user": {
+                    "id": "11400506",
+                    "firstName": "Rosandrys",
+                    "lastName": "DeLeon",
+                    "photo": "https://playfoursquare.s3.amazonaws.com/userpix_thumbs/5RGBQYF4JTWARRRI.jpg",
+                    "gender": "female",
+                    "homeCity": "New York, NY",
+                    "relationship": "friend"
+                },
+                "scores": {
+                    "recent": 19,
+                    "max": 29,
+                    "goal": 50,
+                    "checkinsCount": 3
+                },
+                "rank": 5
+            }],
+            "message": "Nice! You pulled ahead of Rosandrys!",
+            "scores": [{
+                "points": 5,
+                "icon": "https://foursquare.com/img/points/discovery.png",
+                "message": "Welcome! It's your first check-in in Kyrgyzstan!"
+            }, {
+                "points": 3,
+                "icon": "https://foursquare.com/img/points/discovery-venue3.png",
+                "message": "First time at My Smoking Spot"
+            }, {
+                "points": 2,
+                "icon": "https://foursquare.com/img/points/discovery.png",
+                "message": "First of your friends to check in here"
+            }, {
+                "points": 5,
+                "icon": "https://foursquare.com/img/points/travel.png",
+                "message": "3297 miles since last check-in"
+            }],
+            "total": 15
+        }
+    }, {
+        "type": "score",
+        "item": {
+            "scores": [{
+                "points": 5,
+                "icon": "https://foursquare.com/img/points/discovery.png",
+                "message": "Welcome! It's your first check-in in Kyrgyzstan!"
+            }, {
+                "points": 3,
+                "icon": "https://foursquare.com/img/points/discovery-venue3.png",
+                "message": "First time at My Smoking Spot"
+            }, {
+                "points": 2,
+                "icon": "https://foursquare.com/img/points/discovery.png",
+                "message": "First of your friends to check in here"
+            }, {
+                "points": 5,
+                "icon": "https://foursquare.com/img/points/travel.png",
+                "message": "3297 miles since last check-in"
+            }],
+            "total": 15
+        }
+    }],
+    "response": {
+        "checkin": {
+            "id": "4e2b0578d22d3f83c88a5a00",
+            "createdAt": 1311442296,
+            "type": "checkin",
+            "private": true,
+            "shout": "helloworld",
+            "timeZone": "Asia/Bishkek",
+            "venue": {
+                "id": "4b70744df964a5206f1b2de3",
+                "name": "My Smoking Spot",
+                "contact": {},
+                "location": {
+                    "address": "Brightwater Ave",
+                    "crossStreet": "Brighton 15th Street",
+                    "city": "Brooklyn",
+                    "state": "NY",
+                    "postalCode": "11235",
+                    "lat": 40.58583333333333,
+                    "lng": 73.94444444444444,
+                    "distance": 0
+                },
+                "categories": [],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 1,
+                    "usersCount": 1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btn_apptemplate_maps_start" android:text="Choose Start Point..."></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/btn_apptemplate_maps_start" android:layout_alignLeft="@+id/btn_apptemplate_maps_start" android:layout_alignRight="@+id/btn_apptemplate_maps_start" android:id="@+id/btn_apptemplate_maps_end" android:text="Choose End Point..."></Button>
+</RelativeLayout>

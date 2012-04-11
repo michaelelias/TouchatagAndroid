@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<specification xmlns="http://acs.touchatag.com/schema/specification-1.1">
+    <application>
+        <command name="default" id="default"/>
+    </application>
+    <blueprint>
+        <superblock ref="urn:touchatag:block:web-link-app" id="*">
+            <property name="URI">
+                <uri>http://www.touchatag.com/developer</uri>
+            </property>
+            <interface/>
+            <breakdown/>
+            <wiringscheme/>
+        </superblock>
+    </blueprint>
+</specification>

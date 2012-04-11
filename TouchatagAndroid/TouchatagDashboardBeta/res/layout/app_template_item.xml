@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5px">
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/rfid_small"
+		android:layout_toRightOf="@+id/img_tag_item_claimingrule"
+		android:id="@+id/img_app_template_icon"></ImageView>
+	<TextView
+		android:id="@+id/lbl_app_template_item_description"
+		android:textSize="18px"
+		android:text="Template description"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/img_app_template_icon"
+		android:layout_alignBottom="@+id/img_app_template_icon"
+		android:layout_below="@+id/lbl_app_template_item_appname"
+		android:layout_width="fill_parent"></TextView>
+	<TextView
+		android:layout_width="wrap_content"
+		android:id="@+id/lbl_app_template_item_appname"
+		android:text="application name"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/img_app_template_icon"
+		android:layout_alignTop="@+id/img_app_template_icon"
+		android:textSize="22px"
+		android:typeface="normal"
+		android:textColor="#000000"></TextView>
+</RelativeLayout>

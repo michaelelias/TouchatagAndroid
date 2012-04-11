@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent">
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_below="@+id/layout_tag_header"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:id="@+id/linearLayout1"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<LinearLayout android:layout_height="wrap_content" style="@style/subheader_layout" android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/LinearLayout01">
+				<TextView android:layout_height="wrap_content" android:id="@+id/TextView01" style="@style/subheader_text" android:layout_width="wrap_content" android:text="Tag Info"></TextView>
+				<ImageView android:layout_height="wrap_content" android:id="@+id/ImageView01" style="@drawable/subheader_separator" android:src="@drawable/subheader_separator" android:layout_width="fill_parent"></ImageView>
+			</LinearLayout>
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout1"
+				android:layout_width="match_parent" android:padding="10px">
+				<ImageView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:id="@+id/img_tag_type"
+					android:src="@drawable/ttlogo_48"></ImageView>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_toRightOf="@+id/img_tag_type"
+					android:layout_centerVertical="true"
+					android:id="@+id/lbl_tag_identifier"
+					android:text="Unique ID"
+					android:textSize="25px"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" android:layout_marginLeft="5px"></TextView>
+			</RelativeLayout>
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout3"
+				android:layout_width="match_parent" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+				<ToggleButton android:text="ToggleButton" android:layout_height="wrap_content" android:textOn="Locked" android:textOff="Unlocked" android:id="@+id/btn_tag_togglelock" android:layout_width="0dip" android:layout_weight="1" android:layout_marginLeft="2px" android:layout_marginRight="5px"></ToggleButton>
+				<ToggleButton android:text="ToggleButton" android:layout_height="wrap_content" android:textOn="Enabled" android:textOff="Disabled" android:id="@+id/btn_tag_toggledisable" android:layout_width="0dip" android:layout_weight="1" android:layout_marginRight="2px"></ToggleButton>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="4px" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:visibility="gone">
+				<Button android:layout_width="0dip" android:layout_weight="1" android:layout_height="wrap_content" android:text="View QR" android:id="@+id/btn_tag_viewqr"></Button>
+				<Button android:layout_width="0dip" android:layout_weight="1" android:layout_height="wrap_content" android:text="Share QR" android:id="@+id/btn_tag_shareqr"></Button>
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/LinearLayout02" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:layout_marginTop="4px">
+				<Button android:layout_height="wrap_content" android:layout_width="0dip" android:layout_weight="1" android:text="Release" android:id="@+id/btn_tag_delete"></Button>
+				<Button android:layout_height="wrap_content" android:layout_width="0dip" android:layout_weight="1" android:id="@+id/btn_tag_execute" android:text="Simulate"></Button>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" style="@style/subheader_layout" android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/layout_tag_detail_app_header">
+				<TextView android:layout_height="wrap_content" android:id="@+id/TextView02" style="@style/subheader_text" android:layout_width="wrap_content" android:text="Linked Application"></TextView>
+				<ImageView android:layout_height="wrap_content" android:id="@+id/ImageView02" style="@drawable/subheader_separator" android:src="@drawable/subheader_separator" android:layout_width="fill_parent"></ImageView>
+			</LinearLayout>
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:padding="10px" android:id="@+id/layout_tag_detail_app">
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/img_tag_app_icon" android:src="@android:drawable/sym_def_app_icon"></ImageView>
+				<TextView android:layout_width="wrap_content" android:text="App Name" android:id="@+id/lbl_tag_app_name" android:textSize="25px" android:textStyle="bold" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:layout_toRightOf="@+id/img_tag_app_icon" android:layout_alignTop="@+id/img_tag_app_icon" android:layout_toLeftOf="@+id/btn_tag_unlink"></TextView>
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/lbl_tag_app_name" android:layout_alignLeft="@+id/lbl_tag_app_name" android:id="@+id/lbl_tag_app_description" android:layout_toLeftOf="@+id/btn_tag_unlink"></TextView>
+				<Button android:layout_width="wrap_content" android:id="@+id/btn_tag_unlink" android:layout_height="wrap_content" android:text="Unlink" android:layout_alignParentRight="true" android:layout_centerVertical="true"></Button>
+			</RelativeLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadataType
+	xmlns="http://acs.touchatag.com/schema/metadataType-1.0"
+	scope="PUBLIC"
+	identifier="any"
+	formatDescriptionUri="urn:touchatag:metadata:type:any"
+	description="indicates an unspecified metadata type"></metadataType>

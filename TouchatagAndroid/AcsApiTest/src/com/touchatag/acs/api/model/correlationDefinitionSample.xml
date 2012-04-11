@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:correlationDefinition
+	xmlns:ns1="http://acs.touchatag.com/schema/correlationDefinition-1.0"
+	xmlns:ns2="http://acs.touchatag.com/schema/assocations-1.0"
+	xmlns:ns3="http://acs.touchatag.com/schema/ruleset-1.0"
+	ownerid="ownerId">
+	<ns2:associations>
+		<asso
+			tagid="sometagid"
+			command="command" />
+	</ns2:associations>
+</ns1:correlationDefinition>

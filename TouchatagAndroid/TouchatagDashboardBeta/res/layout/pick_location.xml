@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.maps.MapView
+		android:id="@+id/map_picklocation"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:enabled="true"
+		android:clickable="true"
+		android:apiKey="0ig-PQ_3cj0FtegH9RHgvmBx-FkL2qO0fMpKwZA" /><!-- Production Key -->
+		<!--android:apiKey="0ig-PQ_3cj0F1ERneYycPQI5zZc7xUdIhRcWHlQ" />--><!-- Debug Key -->
+</LinearLayout>

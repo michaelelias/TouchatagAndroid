@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<RelativeLayout
+		android:id="@+id/relativeLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5px"
+		android:paddingRight="5px"
+		android:paddingTop="5px">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_4sq_location"
+			android:text="My Location"
+			android:layout_toLeftOf="@+id/btn_4sq_mylocation"
+			android:layout_alignParentLeft="true"
+			android:layout_alignTop="@+id/btn_4sq_mylocation"
+			android:layout_alignBottom="@+id/btn_4sq_mylocation"></Button>
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:src="@android:drawable/ic_menu_mylocation"
+			android:id="@+id/btn_4sq_mylocation"
+			android:layout_margin="0px"></ImageButton>
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/relativeLayout1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5px"
+		android:paddingRight="5px">
+		<ImageButton
+			android:id="@+id/btn_4sq_search"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:src="@android:drawable/ic_menu_search"></ImageButton>
+		<EditText
+			android:id="@+id/txt_4sq_search"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/btn_4sq_search"
+			android:layout_alignBottom="@+id/btn_4sq_search"
+			android:lines="1"
+			android:hint="Search Venue"
+			android:layout_alignTop="@+id/btn_4sq_search" android:layout_marginLeft="2px" android:layout_marginRight="2px"></EditText>
+	</RelativeLayout>
+	<ListView
+		android:id="@+id/list_4sq_venues"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/txt_4sq_search"></ListView>
+</LinearLayout>

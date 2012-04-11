@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns15:page
+	xmlns:ns2="http://acs.touchatag.com/schema/metadataHolder-1.0"
+	xmlns:ns3="http://acs.touchatag.com/schema/metadataAssociation-1.0"
+	xmlns:ns4="http://acs.touchatag.com/schema/metadataLabel-1.0"
+	xmlns:ns5="http://acs.touchatag.com/schema/metadataItem-1.0"
+	xmlns:ns6="http://acs.touchatag.com/schema/tag-1.0"
+	xmlns:ns7="http://acs.touchatag.com/schema/associations-1.0"
+	xmlns:ns8="http://acs.touchatag.com/schema/ruleset-1.0"
+	xmlns:ns9="http://acs.touchatag.com/schema/correlationDefinition-1.0"
+	xmlns:ns10="http://acs.touchatag.com/schema/acsIdentity-1.0"
+	xmlns:ns11="http://acs.touchatag.com/schema/accessToken-1.0"
+	xmlns:ns12="http://acs.touchatag.com/schema/metadataType-1.0"
+	xmlns:ns13="http://acs.touchatag.com/schema/specification-1.1"
+	xmlns:ns14="http://acs.touchatag.com/schema/application-1.0"
+	xmlns:ns15="http://acs.touchatag.com/schema/page-1.0"
+	total="1"
+	pagesize="10"
+	page="1">
+	<ns14:application
+		ownerid="eeb07ac5-b92b-4763-b2b5-a5d8093ea97f"
+		id="1c4719a8-e027-4d93-adb6-a42c509731c6"
+		created="2011-06-25T20:08:55.000+02:00" />
+</ns15:page>

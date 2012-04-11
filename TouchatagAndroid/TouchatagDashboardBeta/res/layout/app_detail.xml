@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent">
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_below="@+id/layout_header"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:layout_above="@+id/layout_appdetail_footer">
+		<LinearLayout
+			android:id="@+id/layout_appdetail_general"
+			android:orientation="vertical"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent">
+			<LinearLayout android:layout_height="wrap_content" style="@style/subheader_layout" android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/LinearLayout01">
+				<TextView android:layout_height="wrap_content" android:id="@+id/TextView01" style="@style/subheader_text" android:layout_width="wrap_content" android:text="Application Details"></TextView>
+				<ImageView android:layout_height="wrap_content" android:id="@+id/ImageView01" style="@drawable/subheader_separator" android:src="@drawable/subheader_separator" android:layout_width="fill_parent"></ImageView>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/layout_appdetail"
+				android:layout_width="fill_parent"
+				android:padding="10px"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView
+					android:text="Name"
+					android:layout_height="wrap_content"
+					android:id="@+id/lbl_appdetail_name"
+					android:layout_width="wrap_content"></TextView>
+				<EditText
+					android:hint="Name of your application"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/txt_appdetail_name"></EditText>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" style="@style/subheader_layout" android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/LinearLayout02">
+				<TextView android:layout_height="wrap_content" android:id="@+id/TextView02" style="@style/subheader_text" android:layout_width="wrap_content" android:text="Template Details"></TextView>
+				<ImageView android:layout_height="wrap_content" android:id="@+id/ImageView02" style="@drawable/subheader_separator" android:src="@drawable/subheader_separator" android:layout_width="fill_parent"></ImageView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout3" android:padding="10px">
+				<Button android:layout_height="wrap_content" android:id="@+id/btn_app_item_template" android:layout_width="fill_parent" android:text="Select Application Template"></Button>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/layout_appdetail_template_config"
+				android:layout_width="match_parent"
+				android:padding="10px"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+			</LinearLayout>
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/linearLayout1"
+				style="@style/subheader_layout"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textView1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					style="@style/subheader_text"
+					android:text="Associated Tags"></TextView>
+				<ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/subheader_separator" android:layout_width="fill_parent" style="@drawable/subheader_separator"></ImageView>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linearLayout2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10px"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/layout_appdetail_tags"
+					android:orientation="vertical"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"></LinearLayout>
+				<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout4" android:layout_height="wrap_content">
+					<Button android:text="Choose a Tag" android:id="@+id/btn_appdetail_picktag" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="0dip" android:layout_weight="1"></Button>
+					<Button android:layout_height="wrap_content" android:id="@+id/btn_appdetail_claimtag" android:text="Claim a Tag" android:layout_width="0dip" android:layout_weight="1"></Button>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/layout_appdetail_footer" android:layout_alignParentBottom="true" android:layout_width="fill_parent">
+		<Button android:layout_margin="10px" android:text="Save Application" android:layout_height="wrap_content" android:id="@+id/btn_appdetail_save" android:layout_width="fill_parent"></Button>
+	</LinearLayout>
+</RelativeLayout>

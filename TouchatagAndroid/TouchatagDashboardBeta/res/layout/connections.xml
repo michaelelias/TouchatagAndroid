@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	style="@style/TTWindowStyle"
+	android:orientation="vertical">
+	<include layout="@layout/header" android:id="@+id/LinearLayout01_ref"  android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/box_gray"
+		android:id="@+id/RelativeLayout01"
+		android:gravity="center_horizontal" android:layout_margin="10px">
+		<ImageView
+			android:id="@+id/ImageView01"
+			android:layout_height="wrap_content"
+			android:layout_margin="5px"
+			android:layout_width="wrap_content" android:src="@drawable/logo_4sq"></ImageView>
+		<Button
+			android:text="Connect"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/ImageView01"
+			android:layout_below="@+id/ImageView01"
+			android:layout_alignRight="@+id/ImageView01"
+			android:layout_width="wrap_content"
+			android:id="@+id/connections_btn_connect_foursquare"></Button>
+	</RelativeLayout>
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1"
+		android:background="@drawable/box_gray"
+		android:gravity="center_horizontal"
+		android:layout_margin="10px" android:layout_marginTop="0px">
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/logo_gowalla"></ImageView>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@+id/imageView1"
+			android:layout_alignLeft="@+id/imageView1"
+			android:layout_alignRight="@+id/imageView1"
+			android:text="Connect" android:id="@+id/connections_btn_connect_gowalla"></Button>
+	</RelativeLayout>
+</LinearLayout>

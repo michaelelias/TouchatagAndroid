@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="app_name">Touchatag</string>
+	<string
+		name="btnSaveCredentials">Save Credentials</string>
+	<string
+		name="lblUsername">Username</string>
+	<string
+		name="lblPassword">Password</string>
+	<string
+		name="lblClientName">Client name</string>
+	<string
+		name="testUsername">michaele</string>
+	<string
+		name="testPassword">dropdead88</string>
+	<string
+		name="testClientName">Michael\'s Nexus S</string>
+	<string
+		name="lblParser">Content read from the tag</string>
+	<string
+		name="btnCallServer">Invoke Server</string>
+	<string
+		name="btnLogin">Login</string>
+	<string
+		name="txtTTUsername">michaele</string>
+	<string
+		name="txtTTPassword">dropdead88</string>
+	<string
+		name="txtReadTag">Read Tag</string>
+	<string
+		name="settings">settings</string>
+	<string
+		name="btnRegister">I don\'t have an account yet</string>
+	<string
+		name="preferences">preferences</string>
+	<string
+		name="btn_status_howto_read">How do I read a tag?</string>
+	<string
+		name="btn_status_howto_claim">How do I claim a tag?</string>
+	<string
+		name="lbl_client_status_title">Processing tag event</string>
+	<string
+		name="lbl_client_status_read_tagdata">Read data from tag</string>
+	<string
+		name="lbl_client_status_sending_tag_event">Send tag event to Touchatag server</string>
+	<string
+		name="lbl_client_status_check_genuine">Check if tag is genuine Touchatag</string>
+	<string
+		name="lbl_client_status_response_received">Received response from server</string>
+	<string
+		name="pref_username">username</string>
+	<string
+		name="pref_clientname">clientname</string>
+	<string
+		name="pref_clear_credentials">Clear credentials</string>
+	<string
+		name="pref_revoke_authorization">Revoke Authorization</string>
+	<string
+		name="pref_password">password</string>
+	<string
+		name="pref_cat_credentials">Credentials</string>
+	<string
+		name="pref_cat_client">Client Settings</string>
+	<string
+		name="pref_client_id">Client ID</string>
+	<string
+		name="pref_client_autolaunch_on_summary">When a tag action is received it will automatically be executed
+	</string>
+	<string
+		name="pref_client_autolaunch_off_summary">When a tag action is received you will be given the choice to
+		execute it</string>
+	<string
+		name="pref_client_autolaunch">Auto launch tag action</string>
+	<string
+		name="pref_client_endpoint">Server endpoint</string>
+	<string
+		name="btn_home_authorize">Authorize to enable more features!</string>
+	<string name="pref_connections">Connections</string>
+</resources>

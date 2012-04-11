@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="C:/tools/guava-r08/guava-r08.jar"/>
+	<classpathentry kind="lib" path="C:/tools/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/tools/signpost-core-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/tools/simple-xml-2.5.2/jar/simple-xml-2.5.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TouchatagCorrelationApi"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MwsApi"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

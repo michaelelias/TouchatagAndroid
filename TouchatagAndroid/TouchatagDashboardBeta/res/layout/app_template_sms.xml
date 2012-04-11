@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+    <EditText
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:inputType="number" android:ellipsize="end" android:hint="Enter a phone number" android:id="@+id/txt_apptemplate_smsnumber" android:layout_toLeftOf="@+id/btn_apptemplate_pickcontact"></EditText>
+    <EditText android:id="@+id/txt_apptemplate_smsbody" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@+id/txt_apptemplate_smsnumber" android:layout_alignLeft="@+id/txt_apptemplate_smsnumber" android:hint="Enter a text for the SMS body" android:lines="2"></EditText>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:text="Pick Contact" android:id="@+id/btn_apptemplate_pickcontact"></Button>
+	
+</RelativeLayout>

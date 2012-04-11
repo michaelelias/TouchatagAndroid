@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5px">
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:src="@android:drawable/sym_def_app_icon"
+		android:id="@+id/img_appitem_icon"></ImageView>
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="App Name"
+		android:layout_toRightOf="@+id/img_appitem_icon"
+		android:layout_alignTop="@+id/img_appitem_icon"
+		android:id="@+id/lbl_appitem_name"
+		android:textColor="#FFFFFF"
+		android:textSize="24px"
+		android:textStyle="bold" android:layout_width="fill_parent" android:ellipsize="end"></TextView>
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="App Description"
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/lbl_appitem_name"
+		android:layout_alignLeft="@+id/lbl_appitem_name"
+		android:id="@+id/lbl_appitem_description"
+		android:textSize="18px" android:layout_toLeftOf="@+id/layout_appitem_tags" android:layout_alignBottom="@+id/img_appitem_icon"></TextView>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignBottom="@+id/img_appitem_icon"
+		android:orientation="horizontal"
+		android:id="@+id/layout_appitem_tags">
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/img_appitem_tag"
+			android:src="@drawable/tag_16_white"></ImageView>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/lbl_appitem_tagcount"
+			android:text="1"
+			android:textStyle="bold"
+			android:textSize="24px"
+			android:textColor="#ffffff"
+			android:layout_marginLeft="2px" android:layout_gravity="center_vertical"></TextView>
+	</LinearLayout>
+</RelativeLayout>

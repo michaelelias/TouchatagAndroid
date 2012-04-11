@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns3:metadataItem
+	xmlns:ns3="http://acs.touchatag.com/schema/metadataItem-1.0"
+	xmlns:ns2="http://acs.touchatag.com/schema/metadataLabel-1.0"
+	value="test-item"
+	type="any"
+	ownerId="80cbf9d9-1402-4c50-b022-5c5ec0bd2ab2"
+	id="e5828cec-c1d5-4847-9602-144c4ec0658c">
+	<ns2:metadataLabel
+		ownerId="80cbf9d9-1402-4c50-b022-5c5ec0bd2ab2"
+		normalizedName="default-label"
+		name="default-label"
+		id="0cf5eb7b-0d37-47a3-aaf9-1403be43ab94" />
+</ns3:metadataItem>

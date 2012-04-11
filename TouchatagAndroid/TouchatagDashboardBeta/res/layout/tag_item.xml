@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5px">
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/img_tag_item_type" android:layout_toRightOf="@+id/img_tag_item_claimingrule" android:src="@drawable/ttlogo_48"></ImageView>
+	<TextView android:layout_width="wrap_content" android:id="@+id/lbl_tag_item_taguid" android:layout_height="wrap_content" android:text="0x04CF9D193E2580" android:layout_toRightOf="@+id/img_tag_item_type" android:layout_alignTop="@+id/img_tag_item_type" android:textSize="24px" android:textStyle="bold" android:textColor="#FFFFFF" android:layout_toLeftOf="@+id/img_tag_item_app" android:layout_marginLeft="5px"></TextView>
+	<LinearLayout android:layout_width="wrap_content" android:layout_alignParentRight="true" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_alignBottom="@+id/img_tag_item_type" android:paddingRight="10px">
+		<ImageView android:layout_margin="2px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/img_tag_item_disabled" android:src="@drawable/disabled_16_white_glow"></ImageView>
+		<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2px" android:id="@+id/img_tag_item_linked" android:src="@drawable/app_16_white_glow"></ImageView>
+		<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/unlocked_16_glow" android:id="@+id/img_tag_item_rule" android:layout_margin="2px"></ImageView>
+	</LinearLayout>
+	
+</RelativeLayout>

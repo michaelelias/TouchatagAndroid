@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+    <Button android:id="@+id/btn_apptemplate_4sqvenue" android:text="Select a Venue..." android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+    <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/cbx_apptemplate_4sq_serverside" android:text="Do server side checkin"></CheckBox>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textMultiLine" android:id="@+id/txt_apptemplate_4sq_shout">
+        <requestFocus></requestFocus>
+    </EditText>
+</LinearLayout>

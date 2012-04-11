@@ -1,0 +1,72 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "response": {
+        "venue": {
+            "id": "4b70744df964a5206f1b2de3",
+            "name": "My Smoking Spot",
+            "contact": {},
+            "location": {
+                "address": "Brightwater Ave",
+                "crossStreet": "Brighton 15th Street",
+                "city": "Brooklyn",
+                "state": "NY",
+                "postalCode": "11235",
+                "lat": 40.58583333333333,
+                "lng": 73.94444444444444
+            },
+            "categories": [],
+            "verified": false,
+            "stats": {
+                "checkinsCount": 1,
+                "usersCount": 1
+            },
+            "hereNow": {
+                "count": 0,
+                "groups": [{
+                    "type": "friends",
+                    "name": "friends here",
+                    "count": 0,
+                    "items": []
+                }, {
+                    "type": "others",
+                    "name": "other people here",
+                    "count": 0,
+                    "items": []
+                }]
+            },
+            "mayor": {
+                "count": 0
+            },
+            "tips": {
+                "count": 0,
+                "groups": [{
+                    "type": "others",
+                    "name": "tips from others",
+                    "count": 0,
+                    "items": []
+                }]
+            },
+            "tags": [],
+            "specials": [],
+            "specialsNearby": [],
+            "shortUrl": "http://4sq.com/anQuFW",
+            "timeZone": "Asia/Bishkek",
+            "photos": {
+                "count": 0,
+                "groups": [{
+                    "type": "checkin",
+                    "name": "friends' checkin photos",
+                    "count": 0,
+                    "items": []
+                }, {
+                    "type": "venue",
+                    "name": "venue photos",
+                    "count": 0,
+                    "items": []
+                }]
+            }
+        }
+    }
+}

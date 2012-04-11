@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:application
+	xmlns="http://acs.touchatag.com/schema/specification-1.1"
+	xmlns:ns2="http://acs.touchatag.com/schema/application-1.0"
+	id="app-id"
+	ownerid="ownerId"
+	created="somedate">
+	<specification>
+		<application>
+			<command
+				name="default"
+				id="default" />
+		</application>
+		<blueprint>
+			<superblock
+				ref="urn:touchatag:block:web-link-app"
+				id="*">
+				<property
+					name="URI">
+					<uri>http://www.touchatag.com/developer</uri>
+				</property>
+				<interface />
+				<breakdown />
+				<wiringscheme />
+			</superblock>
+		</blueprint>
+	</specification>
+</ns2:application>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:acsIdentity
+	xmlns:ns2="http://acs.touchatag.com/schema/acsIdentity-1.0">
+	<ns2:identityId>d96cc489-1d39-43e4-8a9d-9408d892d2cc</ns2:identityId>
+	<tagOwnerScopeAllowed> false</tagOwnerScopeAllowed>
+	<roles>
+		<role>block:extension</role>
+		<role>user:manager</role>
+		<role>tiki:user</role>
+	</roles>
+	<trustedTagOwners />
+	<acquiryDelegates />
+</ns2:acsIdentity>
